@@ -1,0 +1,44 @@
+<!-- 2. Image Slider:
+   - Objective: Create a simple image slider.
+
+   - Requirements:
+     - Display a set of images in a container.   --- [ COMPLETE ]
+     - Include navigation buttons (previous and next) to switch between images.  --- [ COMPLETE ]
+     - Implement basic transitions and animations.    --- [ COMPLETE ]   
+     - Use CSS to style the slider and make it responsive.   --- [ COMPLETE ]
+     - Include a caption or title for each image.    --- [ INCOMPLETE ]
+          - Add automatic sliding functionality with a pause/play button.   --- [ INCOMPLETE ]  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Image Slider</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <img src="https://picsum.photos/id/256/1000/500" alt="Image" class="slide">
+    <img src="https://picsum.photos/id/100/1000/500" alt="Image" class="slide">
+    <img src="https://picsum.photos/id/367/1000/500" alt="Image" class="slide">
+    <img src="https://picsum.photos/id/62/1000/500" alt="Image" class="slide">
+    <img src="https://picsum.photos/id/514/1000/500" alt="Image" class="slide">
+    <img src="https://picsum.photos/id/495/1000/500" alt="Image" class="slide">
+  </div>
+
+  <p id="caption" class="caption"></p>
+
+  <div class="butt">
+    <button onclick="previous()"> Prev </button>
+    <button onclick="plst()"> P/S </button>
+    <button onclick="next()"> Next </button>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

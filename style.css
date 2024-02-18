@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+      width: 60%;
+      height: 500px;
+      margin: auto;
+      margin-top: 100px;
+      border-radius: 20px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 5px 5px 5px grey;
+}
+
+.slide{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 2.5%;
+  transition: 1s;
+}
+
+.butt{
+  text-align: center;
+  margin-top: 40px;
+
+}
+
+.butt button{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px; 
+  padding: 5px;
+}
